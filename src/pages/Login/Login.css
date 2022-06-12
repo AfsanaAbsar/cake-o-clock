@@ -1,0 +1,13 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group label {
+    display: block;
+
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
