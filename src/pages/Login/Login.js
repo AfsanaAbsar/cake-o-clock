@@ -3,6 +3,7 @@ import './Login.css'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import Social from '../Social/Social';
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -50,6 +51,7 @@ const Login = () => {
 
                     <p>new to ema john ? <Link to='/register'> Create An Account</Link></p>
                 </div>
+                <Social></Social>
             </div>
         </div>
     );

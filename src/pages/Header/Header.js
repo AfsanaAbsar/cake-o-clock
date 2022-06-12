@@ -21,7 +21,7 @@ const Header = () => {
 
                         <Link to="/blogs">BLOGS</Link>
                         {
-                            user ? <a onClick={logout}>Sign Out</a> : <Link to="/login">Log In</Link>
+                            user ? <Link onClick={logout} to="/login">Log Out</Link> : <Link to="/login">Log In</Link>
                         }
 
                     </nav>
