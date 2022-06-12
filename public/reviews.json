@@ -1,0 +1,23 @@
+[
+    {
+        "id": "001",
+        "name": "Rita Wane",
+        "review": "sdghdghserhgergsrehsug",
+        "ratings": 5,
+        "img": "https://i.ibb.co/7yLsQw1/per1.jpg"
+    },
+    {
+        "id": "001",
+        "name": "Nabid Anam",
+        "review": "sdghdghserhgergsrehsug",
+        "ratings": 5,
+        "img": "https://i.ibb.co/rdQc565/per2.jpg"
+    },
+    {
+        "id": "003",
+        "name": "Kim Mi Young",
+        "review": "sdghdghserhgergsrehsug",
+        "ratings": 5,
+        "img": "https://i.ibb.co/WKF5sC5/per3.jpg"
+    }
+]

@@ -9,6 +9,7 @@ import Footer from './pages/Footer/Footer';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import REquireAuth from './pages/RequireAuth/REquireAuth';
+import NotFound from './pages/NotFound/NotFound';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
 
       </Routes>
       <Footer></Footer>
