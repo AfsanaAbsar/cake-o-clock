@@ -1,19 +1,15 @@
 import React from 'react';
 import useReviews from '../../../hooks/useReview';
+import SingleReview from '../SingleReview/SingleReview';
 
 const Reviews = () => {
 
     const [reviews, setReviews] = useReviews();
     return (
-        <div className='all-review-card'>
-            <img className='review-img' src={reviews.img} alt="" />
-            <div>
-                <h2>{reviews.name}</h2>
-                <h3>Book: {reviews.book}</h3>
-                <h5>By {reviews.writer}</h5>
-
-            </div>
-        </div>
+        reviews.map(review => <SingleReview
+            key={review.id}
+            review={review}
+        ></SingleReview>)
     );
 
 };

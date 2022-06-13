@@ -1,9 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NotFound.css'
 const NotFound = () => {
     return (
         <div>
-            page not found
+            <div> <div className='not-found-img'>
+                <img src="https://i.ibb.co/qWks8SR/2488756.jpg" alt="" />
+            </div></div>
+            <div className='error-page-btn'>
+                <Link to='/home'>
+                    <button className=''>Go To Home  </button>
+                </Link>
+            </div>
         </div>
     );
 };

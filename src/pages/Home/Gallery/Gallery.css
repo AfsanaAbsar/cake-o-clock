@@ -1,0 +1,35 @@
+.gallery-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1500px;
+    margin: auto;
+}
+
+.gallery h1 {
+    text-align: center;
+    color: rgb(229, 57, 112);
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.gallery-img {
+    width: 500px;
+    height: 500px;
+}
+
+.gallery-item div {
+    width: 500px;
+    height: 500px;
+    margin: 0;
+
+}
+
+.gallery-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    margin-bottom: 50px;
+}

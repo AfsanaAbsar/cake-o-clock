@@ -1,0 +1,13 @@
+.service-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(205, 84, 122);
+}
+
+.service-item {
+    text-align: center;
+    background-color: rgb(248, 246, 246);
+
+
+}
