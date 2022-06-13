@@ -1,0 +1,10 @@
+.review-card {
+    text-align: center;
+}
+
+.review-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid pink;
+}

@@ -33,24 +33,27 @@ const Login = () => {
 
 
     return (
-        <div>
+        <div className='form'>
             <div className='form-container'>
                 <div>
                     <h2>Log In</h2>
                     <form onSubmit={handleUserSignIn}>
                         <div className='input-group'>
                             <label htmlFor="email">Email</label>
-                            <input onBlur={handleEmail} type="email" name="" id="" placeholder='Enter Your Email' />
+                            <input onBlur={handleEmail} type="email" name="" id="" placeholder='Enter Your Email' require />
                         </div>
                         <div className='input-group'>
                             <label htmlFor="password">Password</label>
-                            <input onBlur={handlePassword} type="password" name="" id="" placeholder='Enter Your password' />
+                            <input onBlur={handlePassword} type="password" name="" id="" placeholder='Enter Your password' require />
                         </div>
-                        <input type="submit" value="Submit" />
+                        <input className='btn' type="submit" value="Submit" />
                     </form>
 
-                    <p>new to ema john ? <Link to='/register'> Create An Account</Link></p>
+                    <p>New to Cake O' Clock ? <Link to='/register'> Create An Account</Link></p>
                 </div>
+
+            </div>
+            <div className='social'>
                 <Social></Social>
             </div>
         </div>

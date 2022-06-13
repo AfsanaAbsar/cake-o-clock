@@ -52,11 +52,14 @@ const Register = () => {
                             <label htmlFor="confirm-password">Confirm Password</label>
                             <input onBlur={handleConfirm} type="password" name="" id="" placeholder='Enter Your password' required />
                         </div>
-                        <input type="submit" value="Submit" />
+                        <input className='btn' type="submit" value="Submit" />
                     </form>
                     <p>{error}</p>
                     <p>Already Have an account? ? <Link to='/login'> Please log in</Link></p>
                 </div>
+
+            </div>
+            <div className='social'>
                 <Social></Social>
             </div>
         </div>

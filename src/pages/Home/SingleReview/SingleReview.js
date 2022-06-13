@@ -1,13 +1,13 @@
 import React from 'react';
-
+import './SingleReview.css'
 const SingleReview = (props) => {
-    const { name, review, ratings, img } = props.review;
+    const { name, review, img } = props.review;
     return (
-        <div>
-            <img src={img} alt="" />
-            <p>{name}</p>
+        <div className='review-card'>
+            <img className='review-img' src={img} alt="" />
+            <h4>{name}</h4>
             <p>{review}</p>
-            <p>{ratings}</p>
+
         </div>
     );
 };

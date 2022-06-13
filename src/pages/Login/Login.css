@@ -1,13 +1,31 @@
 .form-container {
     display: flex;
     justify-content: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(250, 237, 239);
+
+
 }
 
-.input-group label {
-    display: block;
 
-}
+
+
 
 .input-group {
     margin-bottom: 10px;
+}
+
+.input-group input {
+    padding: 10px 100px;
+    border: none;
+    margin-left: 50px;
+}
+
+.social {
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
 }

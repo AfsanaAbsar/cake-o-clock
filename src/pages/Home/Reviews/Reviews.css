@@ -1,0 +1,14 @@
+.review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 1500px;
+    margin: auto;
+}
+
+.review-title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(229, 57, 112);
+    margin: 40px 0;
+}
