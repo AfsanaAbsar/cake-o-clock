@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Register.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init'
 import Social from '../Social/Social';
@@ -9,8 +9,10 @@ const Register = () => {
     const [password, setPassword] = useState('');
     const [confirm, SetConfirm] = useState('');
     const [error, setError] = useState('');
-    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || '/';
 
     const handleEmail = e => {
         setEmail(e.target.value);
@@ -22,7 +24,7 @@ const Register = () => {
         SetConfirm(e.target.value);
     }
     if (user) {
-        navigate('/home')
+        navigate(from, { replace: true })
     }
     const handleCreateUser = e => {
         e.preventDefault();

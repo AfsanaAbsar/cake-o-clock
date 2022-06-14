@@ -1,0 +1,36 @@
+.not-found-img {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.not-found-img img {
+    width: 60%;
+
+}
+
+.error-page-btn {
+
+    text-align: center;
+}
+
+.error-page-btn button {
+
+    border: none;
+    padding: 20px 100px;
+    background-color: rgb(202, 100, 117);
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .not-found-img img {
+        width: 100%;
+
+
+    }
+
+    .not-found-img {
+
+        margin: 0;
+    }
+}

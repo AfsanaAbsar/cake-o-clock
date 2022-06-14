@@ -1,0 +1,16 @@
+.footer-logo img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(238, 121, 140);
+    color: white;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 800px) {}

@@ -1,4 +1,4 @@
-const { useState, useEffect } = require("react")
+import { useEffect, useState } from "react";
 
 const useReviews = () => {
     const [reviews, setReviews] = useState([])

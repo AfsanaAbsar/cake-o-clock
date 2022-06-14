@@ -1,7 +1,13 @@
 # Getting Started with Create React App
-
+Project Name : [Cake O' Clock](https://henna-react-firebase.web.app/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Functionality of the website
 
+* You can Order 
+* you can Sign in with email or google
+## packages used in this website
+* [ReactFirebaseHook](https://github.com/CSFrequency/react-firebase-hooks)
+* [react Router](https://reactrouter.com/)
 ## Available Scripts
 
 In the project directory, you can run:

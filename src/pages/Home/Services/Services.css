@@ -11,3 +11,11 @@
     padding: 50px 0;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 800px) {
+    .services-card {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}

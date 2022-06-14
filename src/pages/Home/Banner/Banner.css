@@ -33,6 +33,7 @@
 
     padding: 15px 45px;
     text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
@@ -51,4 +52,19 @@
     /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .banner-title {
+        margin-left: 0;
+    }
 }
